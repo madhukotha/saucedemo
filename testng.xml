@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="common.ScreenShort"></listener>
+</listeners>
+  <test name="open browser" parallel="classes" thread-count="5">
+  	<classes>
+  		<class name="pages.LoginPage">
+  			<methods>
+      			<include name="chromeTest"/>
+      			<include name="firefoxTest"/>
+      			<include name="dataProvider"/>
+      		</methods>
+      	</class>
+  	</classes>
+  </test>
+</suite> 

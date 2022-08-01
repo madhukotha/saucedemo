@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-29T10:46:03 GMT+05:30" name="Suite" finished-at="2022-07-29T10:46:29 GMT+05:30" duration-ms="26264">
+    <groups>
+    </groups>
+    <test started-at="2022-07-29T10:46:03 GMT+05:30" name="open browser" finished-at="2022-07-29T10:46:29 GMT+05:30" duration-ms="26264">
+      <class name="pages.LoginPage">
+        <test-method signature="chromeTest()[pri:0, instance:pages.LoginPage@4fb3ee4e]" started-at="2022-07-29T10:46:03 GMT+05:30" name="chromeTest" finished-at="2022-07-29T10:46:07 GMT+05:30" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method signature="firefoxTest()[pri:0, instance:pages.LoginPage@4fb3ee4e]" started-at="2022-07-29T10:46:07 GMT+05:30" name="firefoxTest" finished-at="2022-07-29T10:46:11 GMT+05:30" duration-ms="4301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxTest -->
+        <test-method signature="dataProvider(java.lang.String,java.lang.String)[pri:0, instance:pages.LoginPage@4fb3ee4e]" started-at="2022-07-29T10:46:11 GMT+05:30" name="dataProvider" data-provider="readData" finished-at="2022-07-29T10:46:15 GMT+05:30" duration-ms="3575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProvider -->
+        <test-method signature="dataProvider(java.lang.String,java.lang.String)[pri:0, instance:pages.LoginPage@4fb3ee4e]" started-at="2022-07-29T10:46:15 GMT+05:30" name="dataProvider" data-provider="readData" finished-at="2022-07-29T10:46:19 GMT+05:30" duration-ms="3440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProvider -->
+        <test-method signature="dataProvider(java.lang.String,java.lang.String)[pri:0, instance:pages.LoginPage@4fb3ee4e]" started-at="2022-07-29T10:46:19 GMT+05:30" name="dataProvider" data-provider="readData" finished-at="2022-07-29T10:46:27 GMT+05:30" duration-ms="8494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProvider -->
+      </class> <!-- pages.LoginPage -->
+    </test> <!-- open browser -->
+  </suite> <!-- Suite -->
+</testng-results>
